@@ -24,6 +24,7 @@ add_executable(guess
     random_wrapper.cpp
     languages.cpp
     base64.cpp
+    clear_console.cpp
 )
 
 FetchContent_Declare(cpr GIT_REPOSITORY https://github.com/libcpr/cpr.git
