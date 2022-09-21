@@ -1,5 +1,5 @@
 # guess_the_language
-Simple CLI programming language guessing game that fetches random code snippets from random files from random github repos and asks the user which one of the 4 given languages the code is written in.
+Simple CLI programming language (+html/css) guessing game that fetches random code snippets from random files from random github repos and asks the user which one of the 4 given languages the code is written in.
 
 ![demo_gif](https://i.imgur.com/hRErJqa.gif)
 
