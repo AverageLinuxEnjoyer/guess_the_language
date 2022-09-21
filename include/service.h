@@ -14,13 +14,10 @@ public:
 
   Question next_question();
 
-  cpr::Response fetch_random_repo(Language::Type language);
-
-  std::string fetch_random_file(cpr::Response &&repo);
-
-  std::string get_random_code(std::string &&file);
-
 private:
+  cpr::Response fetch_random_repo(Language::Type language);
+  std::string fetch_random_file(cpr::Response &&repo);
+  std::string get_random_code(std::string &&file);
   std::string get_random_repo_name(cpr::Response &&r);
   std::string get_random_file_url(cpr::Response &&r);
 
